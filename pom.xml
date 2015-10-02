@@ -15,10 +15,20 @@
       <comments>A business-friendly OSS license</comments>
     </license>
   </licenses>
+   <developers>
+    <developer>
+      <name>Ben Johnson</name>
+      <email>log4jdbc-forjdbi@nope.com</email>
+      <organization>log4jdbc-forjdbi</organization>
+      <organizationUrl>https://github.com/log4jdbc-forjdbi/log4jdbc-forjdbi </organizationUrl>
+    </developer>
+  </developers>
   <scm>
-    <connection>scm:git:https://github.com/log4jdbc-forjdbi/log4jdbc-forjdbi/</connection>
-    <url>https://github.com/log4jdbc-forjdbi/log4jdbc-forjdbi.git</url>
-  </scm>
+  <connection>scm:git:git@github.com:log4jdbc-forjdbi/log4jdbc-forjdbi.git</connection>
+  <developerConnection>scm:git:git@github.com:log4jdbc-forjdbi/log4jdbc-forjdbi.git</developerConnection>
+  <url>git@github.com:log4jdbc-forjdbi/log4jdbc-forjdbi.git</url>
+</scm>
+  
   <parent>
     <groupId>org.sonatype.oss</groupId>
     <artifactId>oss-parent</artifactId>
